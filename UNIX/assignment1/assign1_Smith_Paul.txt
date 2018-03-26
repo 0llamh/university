@@ -1,0 +1,113 @@
+COP3353 - Fall 2014
+Assignment 1 Solution - Due 9/18
+Name: Paul Smith
+
+Question 1 (10 Points):
+---------------------------
+a. CPU is the Processor of a computer and is best described as the "brain". RAM, or Random Access Memory, is the computer's temporary working memory for the task at hand.
+b. 'pico file1.txt'
+c. 	1. '^u'
+	2. '^x'
+	3. '^o'
+	5. '^v'
+d. sh and csh, but the default for our CS accounts is tcsh.
+
+Question 2 (10 Points):
+---------------------------- 
+pasmith@linprog2.cs.fsu.edu:~>pwd
+/home/majors/pasmith
+pasmith@linprog2.cs.fsu.edu:~>mkdir COP3353-hw1
+pasmith@linprog2.cs.fsu.edu:~>cd COP3353-hw1
+pasmith@linprog2.cs.fsu.edu:~/COP3353-hw1>mkdir assign1 assign2
+pasmith@linprog2.cs.fsu.edu:~/COP3353-hw1>ls
+assign1  assign2
+pasmith@linprog2.cs.fsu.edu:~/COP3353-hw1>rmdir assign2
+pasmith@linprog2.cs.fsu.edu:~/COP3353-hw1>ls -l
+total 4
+drwx------ 2 pasmith CS-Majors 4096 Sep 16 23:19 assign1
+pasmith@linprog2.cs.fsu.edu:~/COP3353-hw1>
+
+Question 3 (10 Points):
+------------------------------
+pasmith@linprog3.cs.fsu.edu:~>cd ~/COP3353-hw1/assign1
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>mkdir Files
+mkdir: cannot create directory `Files': File exists
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>touch MyFile.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>pico MyFile.txt
+pasmith@linprog3.cs.fsu.edu:~>cd ~/COP3353-hw1/assign1
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>mkdir Files
+mkdir: cannot create directory `Files': File exists
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>touch MyFile.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>pico MyFile.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>cp MyFile.txt t_1.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>mv t_1.txt ~/COP3353-hw1/assign1/Files
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1>cd Files
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1/Files>>ls
+t_1.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1/Files>cp t_1.txt t_2.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1/Files>ls
+t_1.txt  t_2.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1/Files>ls -l
+total 8
+-rw------- 1 pasmith CS-Majors 98 Sep 16 23:59 t_1.txt
+-rw------- 1 pasmith CS-Majors 98 Sep 17 00:03 t_2.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1/Files>rm t_1.txt
+pasmith@linprog3.cs.fsu.edu:~/COP3353-hw1/assign1/Files>ls
+t_2.txt
+
+Question 4 (10 Points):
+------------------------------
+
+pasmith@linprog1.cs.fsu.edu:~>cd COP3353-hw1
+pasmith@linprog1.cs.fsu.edu:~/COP3353-hw1>touch Test_1.txt Test_2.txt Test_1-1.txt Test_2-1.txt Tes
+t_1-2.xtxt Test_2-2.xtxt Test_1-1.bak Test_2-2.bak File_1.bat
+pasmith@linprog1.cs.fsu.edu:~/COP3353-hw1>ls -l
+total 8
+drwx------ 3 pasmith CS-Majors 4096 Sep 17 00:00 assign1
+drwx------ 2 pasmith CS-Majors 4096 Sep 17 00:09 assign3
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 File_1.bat
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_1-1.bak
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_1-1.txt
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_1-2.xtxt
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_1.txt
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_2-1.txt
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_2-2.bak
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_2-2.xtxt
+-rw------- 1 pasmith CS-Majors    0 Sep 17 00:12 Test_2.txt
+pasmith@linprog1.cs.fsu.edu:~/COP3353-hw1>ls *.txt -l
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_1-1.txt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_1.txt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_2-1.txt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_2.txt
+pasmith@linprog1.cs.fsu.edu:~/COP3353-hw1>ls *.*t -l
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 File_1.bat
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_1-1.txt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_1-2.xtxt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_1.txt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_2-1.txt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_2-2.xtxt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:12 Test_2.txt
+pasmith@linprog1.cs.fsu.edu:~/COP3353-hw1>cp *t_1*.* assign3
+pasmith@linprog1.cs.fsu.edu:~/COP3353-hw1>ls assign3 -l
+total 0
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:15 Test_1-1.bak
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:15 Test_1-1.txt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:15 Test_1-2.xtxt
+-rw------- 1 pasmith CS-Majors 0 Sep 17 00:15 Test_1.txt
+pasmith@linprog1.cs.fsu.edu:~/COP3353-hw1>
+
+Question 5 (10 Points):
+---------------------------
+
+a. /user/Alice
+b. /user/Bob/cat/Felix
+c. /etc
+d. /user/Bob/bird/Tweety
+
+e. ../..
+f. ../../Carl
+g. ../cat/Garfield
+
+h. 	~/cd /user/Bob/cat/Felix
+	~/Bob>cd cat/Felix
+	~/Alice>cd ../user/Bob/cat/Felix

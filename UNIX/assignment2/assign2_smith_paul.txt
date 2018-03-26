@@ -1,0 +1,50 @@
+COP3353 - Fall 2014
+Assignment 2 Solution
+Due Oct. 8th 2014
+Name: Paul Smith
+
+Question 1 (10 points):
+--------------------------------
+	a. dddddddd
+	b. /[cC]at
+	c. xxxxxx
+	d. i
+	d. u
+
+Question 2 (10 points):
+--------------------------------
+	a. save and quit the existing file
+	b. replaces all instances of "cat" with "Cat"
+	c. find the second next instance of the character 'a'
+	d. copies or "yanks" the current line of text
+	e. moves the cursor to the beginning of the file
+
+Question 3 (10 points):
+--------------------------------
+	a. ^r
+	b. ^w
+	c. ^e
+	d. ^v
+	e. ^x ^s
+
+Question 4 (10 points):
+--------------------------------
+	a. Undoes the last entered command
+	b. moves cursor back one character
+	c. pastes text at cursor's location
+	d. quits emacs
+	e. searches forward
+
+Question 5 (10 points):
+--------------------------------
+	a. chmod 615 file.txt
+	   chmod u=rw,g=e,o=re file.txt
+	b. chmod 704 file.txt
+	   chmod u=rwe,g-r,o=r
+	c. -rw-r--r-- 
+	   		where the user has read and write, and both group 
+and other have only read permissions
+	d. drwxr-xr-x
+			by default anybody should be able to "look inside" 
+executing it to open and reading the contents
+	   rmdir privatedirectory

@@ -1,0 +1,172 @@
+================
+Grades test 1
+================
+Enter as many grades as you like (non-negative numbers)
+  Then enter a negative value to indicate you are finished
+>
+96	73	68	94
+76	77	100	89
+54	82	63	85
+You entered 12 grades
+Class average = 79.75
+================
+Grades test 2
+================
+Enter as many grades as you like (non-negative numbers)
+  Then enter a negative value to indicate you are finished
+>
+98	84	92	63
+69	42	78	89
+82	81	75	99
+91	50	71	73
+81	101	83	91
+91	95	89	87
+86	74	78	92
+You entered 28 grades
+Class average = 81.6071
+================
+Diff test 1
+================
+1c1
+< To be, or not to be: that is the question:
+---
+> To be, or not to be:  that is the question:
+5c5
+< And by opposing end them? To die: to sleep;
+---
+> And by opposing end them?   To die: to sleep;
+7c7
+< The heart-ache and the thousand natural shocks
+---
+> The heart - ache and the thousand natural shocks
+13c13
+< Must give us pause: there's the respect
+---
+> Must give us pause: There's the respect
+21c21
+< With a bare bodkin? who would fardels bear,
+---
+> With a bare bodkin? Who would fardels bear,
+33,35c33
+< And lose the name of action. - Soft you now!
+< The fair Ophelia! Nymph, in thy orisons
+< Be all my sins remember'd.
+---
+> And lose the name of action.
+================
+Diff test 2
+================
+7c7
+< The heart-ache and the thousand natural shocks
+---
+> The heart - ache and the thousand natural shocks
+13c13
+< Must give us pause: there's the respect
+---
+> Must give us pause: There's the respect
+21c21
+< With a bare bodkin? who would fardels bear,
+---
+> With a bare bodkin? Who would fardels bear,
+33,35c33
+< And lose the name of action. - Soft you now!
+< The fair Ophelia! Nymph, in thy orisons
+< Be all my sins remember'd.
+---
+> And lose the name of action.
+================
+Diff test 3
+================
+7c7
+< The heart-ache and the thousand natural shocks
+---
+> The heart - ache and the thousand natural shocks
+33,35c33
+< And lose the name of action. - Soft you now!
+< The fair Ophelia! Nymph, in thy orisons
+< Be all my sins remember'd.
+---
+> And lose the name of action.
+================
+Grep test 1
+================
+file1:To be, or not to be: that is the question:
+file1:Whether 'tis nobler in the mind to suffer
+file1:The slings and arrows of outrageous fortune,
+file1:And by opposing end them? To die: to sleep;
+file1:The heart-ache and the thousand natural shocks
+file1:To sleep: perchance to dream: ay, there's the rub;
+file1:Must give us pause: there's the respect
+file1:For who would bear the whips and scorns of time,
+file1:The oppressor's wrong, the proud man's contumely,
+file1:The pangs of despised love, the law's delay,
+file1:The insolence of office and the spurns
+file1:That patient merit of the unworthy takes,
+file1:But that the dread of something after death,
+file1:The undiscover'd country from whose bourn
+file1:No traveller returns, puzzles the will
+file1:And makes us rather bear those ills we have
+file1:Than fly to others that we know not of?
+file1:And thus the native hue of resolution
+file1:Is sicklied o'er with the pale cast of thought,
+file1:With this regard their currents turn awry,
+file1:And lose the name of action. - Soft you now!
+file1:The fair Ophelia! Nymph, in thy orisons
+file2:To be, or not to be:  that is the question:
+file2:Whether 'tis nobler in the mind to suffer
+file2:The slings and arrows of outrageous fortune,
+file2:And by opposing end them?   To die: to sleep;
+file2:The heart - ache and the thousand natural shocks
+file2:To sleep: perchance to dream: ay, there's the rub;
+file2:Must give us pause: There's the respect
+file2:For who would bear the whips and scorns of time,
+file2:The oppressor's wrong, the proud man's contumely,
+file2:The pangs of despised love, the law's delay,
+file2:The insolence of office and the spurns
+file2:That patient merit of the unworthy takes,
+file2:But that the dread of something after death,
+file2:The undiscover'd country from whose bourn
+file2:No traveller returns, puzzles the will
+file2:And makes us rather bear those ills we have
+file2:Than fly to others that we know not of?
+file2:And thus the native hue of resolution
+file2:Is sicklied o'er with the pale cast of thought,
+file2:With this regard their currents turn awry,
+file2:And lose the name of action.
+================
+Grep test 2
+================
+file1:The slings and arrows of outrageous fortune,
+file1:The heart-ache and the thousand natural shocks
+file1:The oppressor's wrong, the proud man's contumely,
+file1:The pangs of despised love, the law's delay,
+file1:The insolence of office and the spurns
+file1:The undiscover'd country from whose bourn
+file1:The fair Ophelia! Nymph, in thy orisons
+file2:The slings and arrows of outrageous fortune,
+file2:The heart - ache and the thousand natural shocks
+file2:The oppressor's wrong, the proud man's contumely,
+file2:The pangs of despised love, the law's delay,
+file2:The insolence of office and the spurns
+file2:The undiscover'd country from whose bourn
+================
+Grep test 3
+================
+file1:For who would bear the whips and scorns of time,
+file1:With a bare bodkin? who would fardels bear,
+file1:The undiscover'd country from whose bourn
+file2:For who would bear the whips and scorns of time,
+file2:The undiscover'd country from whose bourn
+================
+Directory listing
+================
+total 48
+drwxr-xr-x 2 pasmith CS-Majors 4096 Nov  4 20:17 archive
+-rwx--x--x 1 pasmith CS-Majors 3659 Nov  4 20:17 assignment3.sh
+-rw-r--r-- 1 pasmith CS-Majors 1491 Nov  4 22:08 file1
+-rw-r--r-- 1 pasmith CS-Majors 1413 Nov  4 22:08 file2
+-rwx------ 1 pasmith CS-Majors 9721 Nov  4 22:08 grades
+-rw-r--r-- 1 pasmith CS-Majors  508 Nov  4 22:08 myprocess.txt
+-rw-r--r-- 1 pasmith CS-Majors 5314 Nov  4 22:08 output.txt
+-rw-r--r-- 1 pasmith CS-Majors   40 Nov  4 22:08 t1
+-rw-r--r-- 1 pasmith CS-Majors   89 Nov  4 22:08 t2

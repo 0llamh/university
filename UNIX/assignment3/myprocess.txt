@@ -1,0 +1,13 @@
+================
+Process command 1
+================
+UID        PID  PPID  C STIME TTY          TIME CMD
+pasmith  14353 14352  0 22:03 pts/6    00:00:00 -pclab-tcsh
+pasmith  14403 14353  0 22:08 pts/6    00:00:00 /bin/tcsh assignment3.sh
+pasmith  14436 14403  0 22:08 pts/6    00:00:00 ps -f
+================
+Process command 2
+================
+root      6498  2081  0 Nov01 pts/1    00:00:00 su -
+root      6499  6498  0 Nov01 pts/1    00:00:00 -bash
+pasmith  14438 14403  0 22:08 pts/6    00:00:00 grep root
