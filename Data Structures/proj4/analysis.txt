@@ -1,0 +1,14 @@
+Paul Cameron Smith
+Project 4 - Binary Expression Tree
+
+Runtime analysis of makeEmpty(BinaryNode* & t)::
+
+	makeEmpty() is currently a recursive function that traverses the Binary Expression Tree by accessing each node. 
+	Using Big-O notation, makeEmpty would have to access each node to delete each one using postorder traversal analyzing a node's
+	children (left->right) before addressing the parent node. If this was not done this way, we would lose children during deletion 
+	resulting in memory errors and segmentation faults.
+
+	The worst case scenario, also known as Big-O notation, involves a complete binary tree where every node is either a parent with 
+	two children or a leaf node. This would require traversal within each parent node at least more than once resulting in a O(n). 
+	A normal or average traversal should be closer to O(log(n)).
+

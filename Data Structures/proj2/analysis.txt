@@ -1,0 +1,17 @@
+// Paul Cameron Smith
+// COP 4530 - DATA STRUCTURES
+// PROJECT 2 ANALYSIS
+
+
+Most functions defined in List.hpp are most 0(1). They check on a linear level such as a return value (e.g., List<T>::size() returns an int representing a list's size without any loops or recursion). There is no higher level algorithm analysis to go into beyond that. However, there are a few that don't fall into this category, and I will go into each one of them in detail.
+
+	List<T>::reverse()
+---------------------------
+	
+Reverse works on a O(n) level. It loops through as many times as thereare elements in the list, and it scales linearly. It checks each element once, and moves on. There is no permutations or combinations or increasing amount of returns, nor is there a increasing depth like that we see with recursion.
+
+
+	List<T>::remove_if()
+---------------------------
+
+Remove_if is a little different than Reverse as it is user defined. It takes in a PREDICATE from the user and allows them to check the list with their own defined functions. This is tricky as there is no difinite weight to its notation. As it stands right now in this assignment, I would say it works on the same level as Reverse on a O(n) level. Albeit, that can change given the passed in PREDICATE.

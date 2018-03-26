@@ -1,0 +1,9 @@
+Paul Cameron Smith
+Assignment 3
+
+Analyzing the time complexity for Stack<T>::clear()
+
+The run-time complexity of the member function clear() of Stack, should really be at the worst O(n). It grows linearly with the amount of elements in the Stack. It contains one for loop which accounts for the single 'n' in the run-time complexity. There are no nested for loops or branches. If there are 5 elements on the stack, then it will run 5 times longer than if there was only one element on the stack. The growth is linear.
+
+My adaptee class for my stack was the vector<T> and it's clear() run-time complexity is the same as my Stack<T>::clear() when in the worst case.
+
