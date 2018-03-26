@@ -1,0 +1,5 @@
+Hello my name is cameron. 
+
+I am currently testing out the PuTTY SSH client.
+
+This is a lot cooler than the normal SSH client.

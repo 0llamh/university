@@ -1,0 +1,38 @@
+Data:
+1) WHAT do I need to store to represent this object (semantically)?
+
+  numerator
+  denominator
+
+2) What TYPES shall I use for these data elements?
+
+  int numerator;
+  int denominator;
+
+3) What invariant RULES on the data will I enforce?
+
+  denominator may NOT ever be 0
+
+Functions:
+  arithmetic(will involve other objects)
+
+  reciprocal
+  evaluate as a decimal (possible round-off)
+  simplify
+  
+  set the value (mutator)
+  accessors (get) to retrieve num, denom
+  
+  show/print (console output)
+  input (keyboard)
+  
+  initialization (constructor(s))
+
+
+
+
+int x;
+
+cin >> x;
+
+x = ______;

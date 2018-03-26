@@ -1,0 +1,6 @@
+#!/bin/sh
+#uses the borne shell
+
+less .compiling_instructions.txt;
+
+exit 0;

@@ -1,0 +1,33 @@
+Student Grade Summary
+---------------------
+
+BIOLOGY CLASS
+
+Student                                   Final   Final   Letter
+ Name                                      Exam    Avg     Grade
+  -----------------------------------------------------------------------
+Joe Finklebottom                          89      85.70   B       
+Miley Cyrus                               71      67.70   D       
+
+THEATER CLASS
+
+Student                                   Final   Final   Letter
+ Name                                      Exam    Avg     Grade
+  -----------------------------------------------------------------------
+Marvin Dipwart                            95      85.25   B       
+Homer J. Simpson                          74      77.70   C       
+
+COMPUTER SCIENCE CLASS
+
+Student                                   Final   Final   Letter
+ Name                                      Exam    Avg     Grade
+  -----------------------------------------------------------------------
+Spongebob Squarepants                     92      88.35   B       
+Milhouse van Houten                       63      60.75   D       
+
+OVERALL GRADE DISTRIBUTION
+A: 0
+B: 3
+C: 1
+D: 2
+F: 0

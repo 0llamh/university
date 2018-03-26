@@ -1,0 +1,55 @@
+Talking about a class for a new fraction type. Error checking and all.
+
+
+void Fraction::Input()
+// Get a fraction from standard input, in the form "numerator/denominator."
+// What kind of error checking should be added?
+{
+	char divSign;		// used to consume the '/' character
+	cin >> numerator >> divsign >> denomninator;
+}
+
+do
+{
+	prompt
+	let them input
+	if (input bad)
+		error msg
+}
+
+__________________________
+
+bool Fraction::SetValue(int n, int d);	//boolean function to error check function call values
+{
+	if (d == 0)
+		return false;
+	else
+	{
+		numerator = n;
+		denominator = d;
+		return true;
+	}
+}
+
+Fraction::Fraction(int n, int d)
+//initializes fraction to n/d
+//what kind of error checking should be added?
+{
+ if (d ==0)
+ {
+   numerator = 0;
+   denominator = 1;
+ }
+ else
+ { 
+    numerator = n;
+    denominator = d;
+ }
+}
+
+_________OR_______________
+
+{
+  if (SetValue(n,d) == false)
+	SetValue(0,1);
+}				//shorter code == BETTER

@@ -1,0 +1,33 @@
+GeometricObject gLIst[1000];
+
+//
+for (int i = 0; i < 1000; i++)
+   gList[i].Draw();
+
+-------------------------------------------------
+
+int compare(Rectangel x, Rectangle y);
+int compare(Circle x, Circle y);
+int compare(Trianglex, Triangle y);
+
+// TONS OF COMBOS WITH MORE SHAPE TYPES
+// USE FUNCT OVERLOADING!!!! YAAYYYYY
+
+
+int compare(Two_D_Object x, Two_D_Object y)
+{
+  x.GetArea();
+
+  y.GetArea();
+
+
+}
+
+Circle c;	// 28 BYTES
+GeometricObject g;	// 16 BYTES
+
+g = c;		// will this accomplish much? HELL NAH
+
+// USE A POINTER!!!
+
+GeometricObject* gList[1000];
